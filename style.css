@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    color: white;
+    /* font-size: 1.2rem; */
+
+}
+
+body {
+    background: #111;
+}
+.view:hover .hr {
+    background-color: rgb(203, 142, 67);
+    border-radius: 30px;
+    height: 0.5rem;
+    width: 50%;
+    margin: 1rem;
+}
+.view{
+    padding-left: 0;
+}
+
+/* This is the navbar section */
+header {
+    display: flex;
+    /* height: 100rem; */
+    width: 100%;
+    background: #111;
+    /* background-size: cover; */
+    /* background-position: center; */
+
+}
+.nav-bar-button i{
+    display: none;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    height: 30%;
+    width: 10rem;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    transition: width 0.6s, height 0.5s;
+
+
+
+}
+
+.btn {
+    display: none;
+
+}
+
+.cv {
+    height: 2.5em;
+    width: 10em;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    color: #111;
+}
+
+.nav-bar:hover {
+    width: 20rem;
+    height: 100%;
+}
+
+.nav-bar:hover .user {
+
+    display: flex;
+    flex-direction: column;
+}
+
+.user img {
+    border-radius: 50%;
+    margin: auto auto;
+    height: 8rem;
+    width: 8rem;
+}
+
+.user h2 {
+    text-align: center;
+    color: white;
+}
+
+.user h3 {
+    text-align: center;
+    color: white;
+}
+
+.nav-bar:hover .nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul li {
+    text-decoration: none;
+    list-style: none;
+    margin: 1rem;
+
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar:hover .btn {
+    display: block;
+    font-size: 1rem;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5rem;
+    cursor: pointer;
+
+}
+
+.btn:hover {
+    background-color: cornflowerblue;
+
+}
+/* This is the home section */
+
+.home {
+    color: white;
+    /* width: 50%;  */
+
+    font-size: larger;
+}
+
+.home p {
+    padding-left: 15em;
+    padding-right: 15em;
+    font-size: x-large;
+}
+
+span {
+    color: rgb(126, 126, 218);
+}
+
+.view {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* padding: 30vh 0 0 0; */
+    min-height: 80vh;
+    /* margin: 0 auto 0 auto; */
+}
+
+.hr {
+    transition: height 0.5s, width 0.5s;
+    /* display: none; */
+
+}
+
+
+.about:hover .hr {
+    background-color: rgb(203, 142, 67);
+    border-radius: 30px;
+    height: 0.5rem;
+    width: 50%;
+    margin: 1rem;
+}
+
+.about {
+    font-size: 2rem;
+
+}
+
+.boxes {
+    display: flex;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    background-color: rgb(39, 35, 35);
+    height: 10rem;
+    width: 20rem;
+
+}
+
+/* This is the skill section */
+.skills:hover .hr {
+    background-color: rgb(203, 142, 67);
+    border-radius: 30px;
+    height: 0.5rem;
+    width: 50%;
+    margin: 1rem;
+}
+
+.skills {
+    font-size: 2rem;
+}
+
+.boxes-skills {
+    margin-left: 15%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 1px solid greenyellow;
+    border-radius: 20px;
+
+}
+
+.ntl {
+    font-size: x-large;
+}
+
+.box:hover {
+    height: 10.3rem;
+    width: 20.3rem;
+    box-shadow: 0.5rem 0.5rem #8888;
+}
+
+/* This is the contact section */
+
+
+.contactpage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactme {
+    font-size: x-large;
+}
+
+.form {
+    margin-left: 5%;
+
+}
+
+::placeholder {
+    color: white;
+    font-size: larger;
+}
+
+form input {
+    width: 150%;
+    height: 2rem;
+    color: white;
+    background-color: #8888;
+    margin: 0.5rem;
+    border-radius: 10px;
+    /* border: 1px solid greenyellow; */
+}
+
+form textarea {
+    width: 151%;
+    margin: 0.5rem;
+    color: white;
+    background-color: #8888;
+    border-radius: 10px;
+}
+.last{
+    width: 50%;
+}
+.group{
+    display: flex;
+
+}
+.group h3{
+    margin: 0.5rem;
+}
+.btnsend{
+    background-color: cornflowerblue;
+    margin-left: 7rem;
+    font-size: large;
+    width: 7rem;
+    height: 2rem;
+    color: black;
+    border-radius: 10px;
+}
+.btnsend:hover{
+    cursor: pointer;
+}
